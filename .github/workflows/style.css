@@ -1,0 +1,175 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    background: #BCCBDF;
+}
+.logo p{
+    font-size: 20px;
+    line-height: 21px;
+    font-weight: bolder;
+    color: #ff523b;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #555;
+}
+a:hover{
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: underline;
+}
+p{
+    color: #555;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.kolom{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.kolom img{
+    max-width: 100%;
+}
+.kolom h1{
+    font-size: 60px;
+    line-height: 80px;
+}
+.kolom p{
+    font-size: 24px;
+}
+.btn{
+    display: inline-block;
+    background: #ff523b;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+.btn:hover{
+    font-weight: bold;
+    background: #563434;
+}
+.header .row{
+    margin-top: 10px;
+}
+.product{
+    margin: 100px 0px 100px 0px;
+    max-width: 1400px;
+    padding-left: 25px;
+    padding-right:25px;
+}
+.small-container{
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.kolom-gambar{
+    flex-basis: 30%;
+    min-width: 250px;
+    text-align: center;
+    position: relative;
+    color: #555;
+    transition: transform 0.50s;
+}
+.kolom-gambar:hover{
+    transform: scale(1.2)
+}
+.kolom-gambar img{
+    width: 100%;
+}
+.title{
+    text-align: center;
+    margin: 0 auto 20px;
+    position: relative;
+    line-height: 60px;
+    color: #555;
+    text-align: center;
+    font-size: 60px;
+}
+/*.title::after{
+    content: '';
+    background: #ff523b;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}*/
+.h3{
+    color: #555;
+    font-weight: normal;
+}
+.about{
+    background: #BCCBDF;
+    padding-bottom: 80px;
+}
+h4{
+    color: #;
+}
+.gambar-about{
+    max-width: 900px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.about p{
+    padding-top: 50px;
+    margin: auto;
+    text-align: center;
+    max-width: 960px;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+.fa:hover {
+    opacity: 0.7;
+  }
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
